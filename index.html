@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshawardhan Shrivastava | AI Native Systems Engineer & Full-Stack Builder</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Harshawardhan Shrivastava — AI Native Systems Engineer specializing in real-time voice agents, hybrid RAG pipelines, MCP servers, and multi-modal evaluation engines. 3x National Hackathon Winner.">
+  <meta name="keywords" content="Harshawardhan Shrivastava, AI Engineer, Full Stack Engineer, Voice AI, RAG, MCP Server, FastAPI, React, Bhopal">
+  <meta name="author" content="Harshawardhan Shrivastava">
+  
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Harshawardhan Shrivastava | AI Native Systems Engineer">
+  <meta property="og:description" content="AI Native Builder shipping real-time voice agents, hybrid RAG pipelines, and MCP servers. 3x National Hackathon Winner.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/HarrisWarner04">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="nav-logo-symbol">&lt;/&gt;</span> Harshawardhan Shrivastava
+      </a>
+
+      <ul class="nav-links" id="navLinksList">
+        <li><a href="#projects" class="active">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="Harshawardhan Resume.pdf" target="_blank" class="btn btn-secondary btn-sm" download="Harshawardhan_Shrivastava_Resume.pdf">
+          <i class="fa-solid fa-file-arrow-down"></i> Resume PDF
+        </a>
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-paper-plane"></i> Get in Touch
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <div class="hero-status">
+        <span class="status-dot"></span>
+        <span class="status-text">Available for Software & AI Systems Internships / Roles (2026)</span>
+      </div>
+
+      <h1 class="hero-title">
+        Building Real-Time <br>
+        <span class="gradient-text">AI Systems & Agents</span> at Scale.
+      </h1>
+
+      <div class="hero-role">
+        <span>Harshawardhan Shrivastava</span>
+        <span class="hero-role-tag"># AI Native Builder</span>
+        <span class="badge"><i class="fa-solid fa-location-dot"></i> Bhopal, India (Open to Remote / Relocation)</span>
+      </div>
+
+      <p class="hero-summary">
+        AI native builder focused on shipping real AI systems end to end — from sub-400ms real-time voice agents and hybrid RAG pipelines with Reciprocal Rank Fusion, to Model Context Protocol (MCP) servers and multi-modal placement engines. <strong>3× National Hackathon Winner</strong> with a bias for turning prototype failure modes into measurable engineering improvements.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-microchip"></i> Explore Systems & Code
+        </a>
+        <a href="Harshawardhan Resume.pdf" target="_blank" class="btn btn-secondary" download="Harshawardhan_Shrivastava_Resume.pdf">
+          <i class="fa-solid fa-file-pdf"></i> Download Resume
+        </a>
+        <button class="btn btn-outline js-copy-email" title="Click to copy email">
+          <i class="fa-regular fa-copy"></i> Copy Email
+        </button>
+        <a href="https://github.com/HarrisWarner04" target="_blank" class="btn btn-outline" aria-label="GitHub Profile">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/connect-harshawardhanshrivastava" target="_blank" class="btn btn-outline" aria-label="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+
+      <!-- Key Engineering Metrics Ribbon -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-value gradient-text">3×</div>
+          <div class="metric-title">National Hackathon Winner</div>
+          <div class="metric-desc">NASA Space Apps, Qubitx 2025, KV Sangathan</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-value gradient-text">&lt;390ms</div>
+          <div class="metric-title">Voice AI Response Latency</div>
+          <div class="metric-desc">Engineered down from 1,250ms with 7-layer barge-in</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-value gradient-text">93.8%</div>
+          <div class="metric-title">Hybrid RAG Hit@1</div>
+          <div class="metric-desc">BM25 + Vector RRF with 100% Hit@3 on benchmarks</div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-value gradient-text">8+</div>
+          <div class="metric-title">National Finalist</div>
+          <div class="metric-desc">Including Smart India Hackathon (SIH 2025)</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FEATURED PROJECTS ==================== -->
+  <section id="projects" class="section section-border-top">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Production & Hackathon Systems</div>
+        <h2 class="section-title">Featured Engineering Projects</h2>
+        <p class="section-subtitle">
+          Real, deployed systems benchmarked for low latency, robust evaluation, and production-grade reliability.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1: miniVoxSetu -->
+        <article class="project-card">
+          <div class="project-main">
+            <div class="project-meta-top">
+              <span class="badge badge-live">Live Production</span>
+              <span class="badge">2026</span>
+              <span class="badge">Voice AI / Banking</span>
+            </div>
+
+            <h3 class="project-title">miniVoxSetu</h3>
+            <div class="project-headline">Real-Time Multimodal Voice AI Agent for Indian Banking</div>
+
+            <ul class="project-desc-list">
+              <li class="project-desc-item">
+                Engineered an ultra-low latency multimodal voice AI agent combining streaming STT/TTS, semantic analysis, acoustic emotion detection, and asynchronous processing; <strong>reduced end-to-end latency from 1,250ms to ~390ms</strong>.
+              </li>
+              <li class="project-desc-item">
+                Built and evaluated a <strong>hybrid RAG engine combining BM25 and vector search with Reciprocal Rank Fusion (RRF)</strong>; improved retrieval Hit@1 from 68.4% to 93.8% and achieved 100% Hit@3.
+              </li>
+              <li class="project-desc-item">
+                Designed a <strong>7-layer barge-in system</strong> using AudioWorklet VAD, client queue flushing, WebSocket interruption signals, generation-ID gating, and stale-task pruning with &lt;280ms interrupt-to-silence latency.
+              </li>
+              <li class="project-desc-item">
+                Built automated evaluation harness covering RAG retrieval, acoustic inference, latency benchmarking, and <strong>1.000 F1 PII redaction</strong> on synthetic banking transcripts.
+              </li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">WebSockets</span>
+              <span class="tech-tag">Groq</span>
+              <span class="tech-tag">Deepgram</span>
+              <span class="tech-tag">Qdrant</span>
+              <span class="tech-tag">PyTorch</span>
+              <span class="tech-tag">AudioWorklet</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://minivoxsetu.bugbiceps.in/" target="_blank" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live System
+              </a>
+              <a href="https://github.com/HarrisWarner04/miniVoxSetu" target="_blank" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+
+          <div class="project-stats-box">
+            <div>
+              <div class="spec-group-title">Engineered Benchmarks</div>
+              <div class="stat-item">
+                <div class="stat-num">~390ms</div>
+                <div class="stat-label">End-to-end voice roundtrip latency</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">&lt;280ms</div>
+                <div class="stat-label">Barge-in interrupt-to-silence latency</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">1.000 F1</div>
+                <div class="stat-label">PII security redaction on banking transcripts</div>
+              </div>
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 1rem;">
+              Architecture: WebSocket Streaming + Qdrant Vector + BM25 RRF
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 2: GitHub Analyzer -->
+        <article class="project-card">
+          <div class="project-main">
+            <div class="project-meta-top">
+              <span class="badge badge-live">Live Production</span>
+              <span class="badge">2026</span>
+              <span class="badge">Model Context Protocol (MCP)</span>
+            </div>
+
+            <h3 class="project-title">GitHub Analyzer</h3>
+            <div class="project-headline">MCP Server & Agentic Code Review Tool</div>
+
+            <ul class="project-desc-list">
+              <li class="project-desc-item">
+                Built a <strong>Model Context Protocol (MCP) server from scratch</strong> using official MCP Python SDK v2, exposing a typed <code>analyze_repo</code> tool over JSON-RPC/stdio for Claude Desktop, Cursor, Kiro, and MCP Inspector.
+              </li>
+              <li class="project-desc-item">
+                Designed a <strong>two-model analysis pipeline</strong> using Gemini 2.5 Flash for deep repository AST auditing and Groq LLaMA 3 8B for fast structured scoring across 8 weighted engineering categories.
+              </li>
+              <li class="project-desc-item">
+                Engineered asynchronous, rate-limit-aware GitHub ingestion with <code>httpx</code> and <code>pydantic</code>, generating severity-ranked issue reports and prioritized refactoring recommendations.
+              </li>
+              <li class="project-desc-item">
+                Implemented <strong>Streamable HTTP transport and Docker containerization</strong>, transforming local subprocess execution into an enterprise-ready remotely deployed service.
+              </li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">MCP SDK v2</span>
+              <span class="tech-tag">Gemini 2.5 Flash</span>
+              <span class="tech-tag">Groq LLaMA 3</span>
+              <span class="tech-tag">GitHub REST API</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Pydantic</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://githubAnalyser.bugbiceps.in/" target="_blank" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Service
+              </a>
+              <a href="https://github.com/HarrisWarner04/githubAnalyser" target="_blank" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+
+          <div class="project-stats-box">
+            <div>
+              <div class="spec-group-title">Protocol & Scale</div>
+              <div class="stat-item">
+                <div class="stat-num">MCP SDK v2</div>
+                <div class="stat-label">JSON-RPC & Stdio protocol compliance</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">8 Categories</div>
+                <div class="stat-label">Weighted automated codebase audit rubric</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">Dual LLM</div>
+                <div class="stat-label">Gemini 2.5 Flash + Groq LLaMA 3 synthesis</div>
+              </div>
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 1rem;">
+              Clients: Claude Desktop, Cursor, Kiro IDE, MCP Inspector
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 3: HireReady -->
+        <article class="project-card">
+          <div class="project-main">
+            <div class="project-meta-top">
+              <span class="badge badge-live">Live Production</span>
+              <span class="badge">2026</span>
+              <span class="badge">Team Lead / AI Architect</span>
+            </div>
+
+            <h3 class="project-title">HireReady</h3>
+            <div class="project-headline">Multi-Modal AI Interview & Placement Readiness Platform</div>
+
+            <ul class="project-desc-list">
+              <li class="project-desc-item">
+                Architected an end-to-end placement readiness engine combining ATS resume scanning, GitHub codebase AST auditing, semantic role matching, and <strong>computer-vision proctored mock interviews</strong> into a unified <strong>PlaceScore™</strong>.
+              </li>
+              <li class="project-desc-item">
+                Designed a <strong>6-factor deterministic + neural ATS engine (0–100)</strong> combining algorithmic Porter suffix-stripping keyword extraction with dense semantic cosine similarity against target Job Descriptions.
+              </li>
+              <li class="project-desc-item">
+                Implemented real-time <strong>MediaPipe FaceMesh (478 landmarks)</strong> for gaze, eye-contact, and attention tracking, paired with Whisper speech-to-text with noise hallucination rejection.
+              </li>
+              <li class="project-desc-item">
+                Integrated GitHub codebase AST verification to cross-check claimed resume skills against actual repository commits and code evidence to generate interview talking points.
+              </li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">React 18</span>
+              <span class="tech-tag">Firebase Firestore</span>
+              <span class="tech-tag">ChromaDB</span>
+              <span class="tech-tag">Groq</span>
+              <span class="tech-tag">Gemini</span>
+              <span class="tech-tag">MediaPipe</span>
+              <span class="tech-tag">Whisper</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://hireready.bugbiceps.in/" target="_blank" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Platform
+              </a>
+              <a href="https://github.com/HarrisWarner04/HireReady" target="_blank" class="btn btn-secondary btn-sm">
+                <i class="fa-brands fa-github"></i> Source Code
+              </a>
+            </div>
+          </div>
+
+          <div class="project-stats-box">
+            <div>
+              <div class="spec-group-title">Evaluation Engine</div>
+              <div class="stat-item">
+                <div class="stat-num">478 Landmarks</div>
+                <div class="stat-label">Real-time browser FaceMesh attention tracking</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">6-Factor ATS</div>
+                <div class="stat-label">Deterministic & semantic scoring breakdown</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-num">PlaceScore™</div>
+                <div class="stat-label">Composite metric: 30% ATS + 30% GitHub + 40% Interview</div>
+              </div>
+            </div>
+            <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted); border-top: 1px solid var(--border-subtle); padding-top: 1rem;">
+              LaTeX Export: Automated Overleaf Jake's Resume Generation
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== TECHNICAL SKILLS ==================== -->
+  <section id="skills" class="section section-border-top">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Core Competencies</div>
+        <h2 class="section-title">Technical Skills & Tooling</h2>
+        <p class="section-subtitle">
+          Specialized in generative AI systems, real-time distributed backends, vector search, and evaluation harnesses.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fa-solid fa-brain"></i></div>
+            <h3 class="skill-cat-title">Generative AI & Agents</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill">LLM Application Arch</span>
+            <span class="skill-pill">Agentic Pipelines</span>
+            <span class="skill-pill">Hybrid RAG (BM25 + Dense)</span>
+            <span class="skill-pill">Model Context Protocol (MCP)</span>
+            <span class="skill-pill">Reciprocal Rank Fusion</span>
+            <span class="skill-pill">Evaluation Harnesses</span>
+            <span class="skill-pill">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fa-solid fa-server"></i></div>
+            <h3 class="skill-cat-title">Backend & Systems</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill">Python (AsyncIO)</span>
+            <span class="skill-pill">FastAPI</span>
+            <span class="skill-pill">WebSockets</span>
+            <span class="skill-pill">WebRTC</span>
+            <span class="skill-pill">RESTful APIs</span>
+            <span class="skill-pill">Pydantic</span>
+            <span class="skill-pill">HTTPX Streaming</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fa-solid fa-database"></i></div>
+            <h3 class="skill-cat-title">Vector & Databases</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill">Qdrant Vector DB</span>
+            <span class="skill-pill">ChromaDB</span>
+            <span class="skill-pill">Google Cloud Firestore</span>
+            <span class="skill-pill">Firebase Auth & Storage</span>
+            <span class="skill-pill">MySQL</span>
+            <span class="skill-pill">Embeddings (1536/768-dim)</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fa-solid fa-wave-square"></i></div>
+            <h3 class="skill-cat-title">Audio & ML Models</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill">OpenAI / Groq Whisper</span>
+            <span class="skill-pill">Deepgram Streaming STT</span>
+            <span class="skill-pill">DistilHuBert</span>
+            <span class="skill-pill">Librosa Acoustic DSP</span>
+            <span class="skill-pill">MediaPipe FaceMesh</span>
+            <span class="skill-pill">PyTorch</span>
+            <span class="skill-pill">Ollama (Local Models)</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fa-solid fa-cubes"></i></div>
+            <h3 class="skill-cat-title">Tools & Cloud</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill">Docker & Containerization</span>
+            <span class="skill-pill">Git / GitHub Actions CI</span>
+            <span class="skill-pill">GitHub GraphQL API</span>
+            <span class="skill-pill">n8n Automation</span>
+            <span class="skill-pill">Linux / Shell</span>
+            <span class="skill-pill">Render / Vercel Deploy</span>
+          </div>
+        </div>
+
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="skill-cat-title">Engineering Practices</h3>
+          </div>
+          <div class="skill-pills">
+            <span class="skill-pill">Responsible AI & PII Redaction</span>
+            <span class="skill-pill">Latency Optimization</span>
+            <span class="skill-pill">Deterministic AST Parsing</span>
+            <span class="skill-pill">Automated Unit/Integration Tests</span>
+            <span class="skill-pill">Rate-Limit Handling</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE & EDUCATION ==================== -->
+  <section id="experience" class="section section-border-top">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Work & Education</div>
+        <h2 class="section-title">Experience & Leadership</h2>
+        <p class="section-subtitle">
+          Demonstrated history of execution in startup environments, freelance automation, and campus leadership.
+        </p>
+      </div>
+
+      <div class="experience-layout">
+        
+        <!-- Left: Work Timeline -->
+        <div class="timeline">
+          
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-period">DEC 2025 — PRESENT</div>
+            <h3 class="timeline-title">Freelance AI Automation Engineer</h3>
+            <div class="timeline-company"><i class="fa-solid fa-briefcase"></i> Independent Builder & Consultant</div>
+            <p class="timeline-body">
+              Delivered 5+ production-grade AI-powered workflow automations (client pipelines, CRM lead capture, automated document parsers, and custom multi-step AI agents) for small businesses, reducing manual processing overhead by over 70%.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-period">NOV 2025 — JAN 2026</div>
+            <h3 class="timeline-title">Technology Intern</h3>
+            <div class="timeline-company"><i class="fa-solid fa-building"></i> HaronIndia Pvt. Ltd. · Remote</div>
+            <p class="timeline-body">
+              Worked directly alongside the founding team to architect and implement core AI features tailored for farmers and agricultural supply chains, focusing on simplified multimodal interactions and multilingual accessibility.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-period">2025 — PRESENT</div>
+            <h3 class="timeline-title">President, Student Activity Council (SAC)</h3>
+            <div class="timeline-company"><i class="fa-solid fa-users"></i> Oriental Institute of Science & Technology, Bhopal</div>
+            <p class="timeline-body">
+              Elected to lead campus-wide student initiatives, technical hackathons, coding workshops, and industry speaker sessions, fostering an active culture of hands-on software development across departments.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Right: Education & Achievements Stack -->
+        <div class="side-cards-stack">
+          
+          <!-- Education Card -->
+          <div class="side-card">
+            <h3 class="side-card-title"><i class="fa-solid fa-graduation-cap" style="color: var(--accent-cyan);"></i> Education</h3>
+            <div style="margin-bottom: 0.5rem;">
+              <div style="font-weight: 700; color: var(--text-primary);">B.Tech. in Computer Science & Engineering</div>
+              <div style="font-size: 0.9rem; color: var(--text-secondary);">Oriental Institute of Science and Technology (OIST), Bhopal</div>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center; font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-indigo); margin-top: 0.75rem; border-top: 1px solid var(--border-subtle); padding-top: 0.75rem;">
+              <span>2023 — 2027</span>
+              <span class="badge">CGPA: 8.02</span>
+            </div>
+          </div>
+
+          <!-- Achievements Card -->
+          <div class="side-card" id="achievements">
+            <h3 class="side-card-title"><i class="fa-solid fa-trophy trophy-icon"></i> Hackathon Honors</h3>
+            
+            <div class="achievement-item">
+              <i class="fa-solid fa-medal trophy-icon"></i>
+              <div>
+                <strong>3× National Hackathon Winner</strong>: NASA Space Apps Challenge, Qubitx 2025, KV Sangathan.
+              </div>
+            </div>
+
+            <div class="achievement-item">
+              <i class="fa-solid fa-award" style="color: var(--accent-cyan); margin-top: 0.1rem;"></i>
+              <div>
+                <strong>8× National Hackathon Finalist</strong>: Including Smart India Hackathon (SIH) 2025.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT & COLLABORATION ==================== -->
+  <section id="contact" class="section section-border-top">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Get in Touch</div>
+        <h2 class="section-title">Let's Build Something Exceptional</h2>
+        <p class="section-subtitle">
+          Open to software engineering internships, AI systems roles, hackathon collaborations, and consulting discussions.
+        </p>
+      </div>
+
+      <div class="contact-card">
+        
+        <div>
+          <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Direct Channels</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+            Feel free to reach out directly via email, connect on LinkedIn, or inspect my repositories on GitHub. I typically respond within 24 hours.
+          </p>
+
+          <div class="contact-direct-links">
+            <a href="mailto:connect.harshawardhan@gmail.com" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">EMAIL ME DIRECTLY</div>
+                <div style="font-weight: 600;">connect.harshawardhan@gmail.com</div>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/connect-harshawardhanshrivastava" target="_blank" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fa-brands fa-linkedin"></i></div>
+              <div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">LINKEDIN PROFILE</div>
+                <div style="font-weight: 600;">in/connect-harshawardhanshrivastava</div>
+              </div>
+            </a>
+
+            <a href="https://github.com/HarrisWarner04" target="_blank" class="contact-link-item">
+              <div class="contact-link-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">GITHUB REPOSITORIES</div>
+                <div style="font-weight: 600;">github.com/HarrisWarner04</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Collaboration Form -->
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label class="form-label" for="formName">Your Name</label>
+            <input type="text" id="formName" class="form-input" placeholder="Recruiter / Founder / Engineer" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formEmail">Your Email</label>
+            <input type="email" id="formEmail" class="form-input" placeholder="name@company.com" required>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formTopic">Inquiry Topic</label>
+            <select id="formTopic" class="form-select">
+              <option value="Internship / Full-time Role">Internship / Job Opportunity (Summer / Fall 2026)</option>
+              <option value="Freelance / Contract AI Automation">Freelance / AI Automation Project</option>
+              <option value="Hackathon / Open Source Collaboration">Hackathon / Open Source Collaboration</option>
+              <option value="General Technical Discussion">General Technical Discussion</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="formMessage">Message</label>
+            <textarea id="formMessage" class="form-textarea" placeholder="Tell me about the role, project, or collaboration..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <i class="fa-solid fa-paper-plane"></i> Send Direct Inquiry
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <div style="font-family: var(--font-mono); font-weight: 700; color: var(--text-primary); margin-bottom: 0.25rem;">
+          Harshawardhan Shrivastava
+        </div>
+        <div>AI Native Systems Engineer · Bhopal, India</div>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/HarrisWarner04" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://linkedin.com/in/connect-harshawardhanshrivastava" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="mailto:connect.harshawardhan@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+        <a href="Harshawardhan Resume.pdf" download="Harshawardhan_Shrivastava_Resume.pdf"><i class="fa-solid fa-file-pdf"></i> Resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Box -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check" style="color: var(--accent-emerald);"></i>
+    <span class="toast-msg">Email copied to clipboard!</span>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
